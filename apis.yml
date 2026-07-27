@@ -1,7 +1,26 @@
 aid: grand
-name: grand
-description: grand is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grand.png
+name: Grand Games
+description: 'Grand Games (Grand Games Oyun ve Yazılım) is an Istanbul-based hybrid-casual
+  mobile game studio founded in early 2024 by Bekir Batuhan Çelebi, Mehmet Çalım, and
+  Mustafa Fırtına, a team that previously built Zen Match at Moon Active. The studio
+  develops genre-defining puzzle games for iOS and Android played by millions worldwide,
+  including Magic Sort, Car Match, and Block Out, and has grown to six live titles with
+  fivefold year-over-year revenue. It has raised roughly $103M across three rounds, most
+  recently a $70M Series B led by Balderton Capital''s Growth Fund in May 2026. Grand
+  Games publishes consumer mobile games and does not currently expose a public developer
+  API, SDK, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/grand/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Gaming
+- Game Development
+- Mobile Games
+- Hybrid Casual
+- Puzzle Games
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,12 @@ maintainers:
 common:
 - type: Website
   url: https://grand.gs/
+- type: PrivacyPolicy
+  url: https://grand.gs/privacy
+- type: TermsOfService
+  url: https://grand.gs/terms
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
